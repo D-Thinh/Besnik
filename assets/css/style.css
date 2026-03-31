@@ -22,7 +22,7 @@ a {
     min-width: 98px;
     font-weight: 500;
     background-color: var(--primary-color);
-    border-radius: 8px;
+    border-radius: 12px;
     color: #fff;
     font-size: 1.4rem;
     text-align: center;
@@ -67,6 +67,7 @@ a {
 .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+    border-radius: 8px;
 }
 
 .hero {
@@ -171,4 +172,78 @@ a {
     line-height: 1.8;
     text-align: center;
     color: #5a6473;
+}
+/* list guide */
+
+.list-guide {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-guide li {
+    list-style: none;
+}
+
+.guidde-item {
+    margin: 0 70px;
+    text-align: center;
+}
+
+.guidde-item .titel {
+    margin-top: 26px;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 2rem;
+    color: #3b3c45;
+}
+
+.guidde-item .link {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #0689ff;
+}
+.guidde-item .arow {
+    margin-left: 6px;
+}
+.guide-cta {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.guide-cta .btn {
+    min-width: 170px;
+}
+
+.featured {
+    margin-top: 230px;
+}
+.featured .sub-title {
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #000339;
+}
+.featured .row {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.featured .desc {
+    font-weight: 400;
+    line-height: 1.88;
+    font-size: 1.6rem;
+    color: #5a6473;
+}
+.featured .link {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #0689ff;
+}
+.featured .link .arrow {
+    margin-left: 8px;
 }

@@ -39,6 +39,24 @@ a {
     overflow: hidden;
     word-break: break-all;
 }
+
+.header-main {
+    background-color: #e6f0ff;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.header-main a:hover {
+    font-size: 1.6rem;
+}
+.action-link {
+    font-size: 1.5rem;
+}
+.header-main .navbar {
+    display: flex;
+    align-items: center;
+    padding: 12px 0px;
+}
 /* header */
 .content {
     width: 1110px;
@@ -48,6 +66,8 @@ a {
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
     position: relative;
     width: 100%;
     background-color: #e6f0ff;

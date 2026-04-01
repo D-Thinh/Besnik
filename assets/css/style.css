@@ -28,6 +28,10 @@ a {
     text-align: center;
     padding: 18px 16px;
 }
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
 .line-clam {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clam, 2);
@@ -140,7 +144,18 @@ a {
 .client .image {
     display: flex;
     justify-content: space-between;
-    margin-top: 96px;
+    margin-top: 70px;
+}
+.client .image a {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    border-radius: 12px;
+
+    height: 90px;
+}
+.client .image a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Guides */
@@ -193,7 +208,14 @@ a {
 
 .guidde-item {
     margin: 0 70px;
+    padding: 40px 10px;
+    border-radius: 12px;
     text-align: center;
+}
+
+.guidde-item:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .guidde-item .titel {

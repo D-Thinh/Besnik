@@ -4,7 +4,11 @@
 :root {
     --primary-color: #0f1b4c;
 }
-
+body,
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
 html {
     font-size: 62.5%;
 }
@@ -71,7 +75,7 @@ a {
     position: relative;
     width: 100%;
     background-color: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 77px);
 }
 
 .navbar {
